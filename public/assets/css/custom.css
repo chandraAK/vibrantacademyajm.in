@@ -1,0 +1,54 @@
+/* Custom styles for Vibrant Academy */
+.hover-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1) !important;
+}
+
+.icon-circle {
+    transition: all 0.3s ease;
+}
+
+.card:hover .icon-circle {
+    background: var(--primary-color) !important;
+    color: white !important;
+}
+
+/* Animation for stats counter */
+@keyframes countUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.stat-number {
+    animation: countUp 1s ease-out;
+}
+
+/* Smooth transitions */
+a {
+    transition: all 0.3s ease;
+}
+
+/* Form styling */
+.form-control:focus, .form-select:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.25);
+}
+
+/* Card hover effects */
+.card {
+    transition: all 0.3s ease;
+}
+
+/* Alert animations */
+.alert {
+    animation: slideIn 0.5s ease;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
