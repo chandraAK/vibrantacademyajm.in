@@ -35,7 +35,7 @@
             </div>
             <hr class="my-4 border-secondary">
             <div class="text-center">
-                <p class="mb-0">&copy; <?= date('Y') ?> Vibrant Academy. All rights reserved. | Designed with <i class="fas fa-heart text-danger"></i> for Education</p>
+                <p class="mb-0">&copy; <?= date('Y') ?> Vibrant Academy Ajmer. All rights reserved. | Designed with <i class="fas fa-heart text-danger"></i> for Vibrant Academy, Ajmer</p>
             </div>
         </div>
     </footer>
