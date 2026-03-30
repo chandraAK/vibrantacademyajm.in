@@ -20,7 +20,7 @@ class Home extends BaseController
             'meta_desc'   => 'Vibrant Academy offers top coaching for Classes 1-12, NEET, IIT-JEE preparation in Ajmer. 13+ years of excellence in education.',
             'institute'   => [
                 'name'    => 'Vibrant Academy',
-                'address' => 'P21, Shakti Nagar, Subash Nagar, Ajmer - 305001',
+                'address' => 'P21, Shakti Nagar, Subhash Nagar, Ajmer - 305001',
                 'phone'   => '9983537405',
                 'email'   => 'support@vibrantacademyajm.in',
                 'experience' => '13+ Years',
