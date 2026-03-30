@@ -1,5 +1,5 @@
     <!-- WhatsApp Button -->
-    <a href="https://wa.me/919983537401?text=Hi%20Vibrant%20Academy,%20I%20want%20to%20know%20more%20about%20your%20courses" 
+    <a href="https://wa.me/919983537405?text=Hi%20Vibrant%20Academy,%20I%20want%20to%20know%20more%20about%20your%20courses" 
        class="whatsapp-btn" target="_blank">
         <i class="fab fa-whatsapp"></i>
     </a>

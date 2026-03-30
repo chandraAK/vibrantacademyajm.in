@@ -21,7 +21,7 @@ class Home extends BaseController
             'institute'   => [
                 'name'    => 'Vibrant Academy',
                 'address' => 'P21, Shakti Nagar, Subash Nagar, Ajmer - 305001',
-                'phone'   => '9983537401',
+                'phone'   => '9983537405',
                 'email'   => 'support@vibrantacademyajm.in',
                 'experience' => '13+ Years',
             ],

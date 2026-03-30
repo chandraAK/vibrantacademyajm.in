@@ -22,7 +22,7 @@ class Filters extends BaseConfig
 
     public array $globals = [
         'before' => [
-            'csrf' => ['except' => ['api/leads/create', 'admin/login']],
+            'csrf' => ['except' => ['api/leads/create']],
         ],
         'after' => [
             'toolbar',
@@ -31,7 +31,9 @@ class Filters extends BaseConfig
 
     public array $methods = [];
 
+    // IMPORTANT: Remove the global adminauth filter from here
+    // We'll apply it in routes instead with exceptions
     public array $filters = [
-        'adminauth' => ['before' => ['admin/*', 'admin']],
+        // 'adminauth' => ['before' => ['admin/*', 'admin']],  // REMOVE THIS LINE
     ];
 }

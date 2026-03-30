@@ -12,6 +12,7 @@ class AdminAuth implements FilterInterface
     {
         $session = session();
 
+        // If not logged in, redirect to login
         if (!$session->get('is_admin_logged_in')) {
             return redirect()->to('admin/login');
         }
